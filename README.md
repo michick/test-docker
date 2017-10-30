@@ -11,7 +11,7 @@ Tested on
 Set up
 ------
 ```
-git clone https://github.com/michick/test-docker.git
+git clone git@github.com:michick/test-docker.git
 cd test-docker
 ./start.sh
 ```
@@ -20,3 +20,7 @@ Done
 ----
 Connect to localhost:22 by SFTP. Upload files to upload directory.
 User and password impraise:impraise.
+
+Notes
+-----
+Of course directory /tmp/tmptest will not be suitable for production. Instead directory with proper permissions should be used.
